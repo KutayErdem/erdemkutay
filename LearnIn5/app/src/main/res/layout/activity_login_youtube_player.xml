@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.learnin5.LoginYoutubePlayerActivity">
+
+    <com.google.android.youtube.player.YouTubePlayerView
+        android:id="@+id/youtube_player_view"
+        android:layout_width="match_parent"
+        android:layout_height="320dp"></com.google.android.youtube.player.YouTubePlayerView>
+
+    <TextView
+        android:id="@+id/video_text"
+        android:layout_width="280dp"
+        android:layout_height="70dp"
+        android:layout_below="@id/youtube_player_view"
+        android:text="YouTubeVideo"
+        android:textSize="18dp" />
+
+    <View
+        android:id="@+id/questions_line"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="390dp"
+        android:background="@android:color/background_dark" />
+
+    <TextView
+        android:id="@+id/questions_text"
+        android:layout_width="160dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="390dp"
+        android:text=" Questions"
+        android:textColor="@color/colorAccent"
+        android:textSize="26dp" />
+
+    <Button
+        android:id="@+id/checkall_button"
+        android:layout_width="110dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="185dp"
+        android:layout_marginTop="388dp"
+        android:text="Check All"
+        android:textSize="16dp" />
+
+    <ImageButton
+        android:id="@+id/upbutton"
+        android:layout_width="50dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="390dp"
+        android:background="@color/colorPrimary"
+        android:src="@android:drawable/arrow_up_float" />
+
+    <ImageButton
+        android:id="@+id/downbutton"
+        android:layout_width="50dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="355dp"
+        android:layout_marginTop="390dp"
+        android:background="@color/colorPrimary"
+        android:src="@android:drawable/arrow_down_float" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_questions_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/video_text"
+        android:layout_marginTop="35dp" />
+
+    <Button
+        android:id="@+id/add_favs"
+        android:layout_width="110dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="325dp"
+        android:layout_marginLeft="290dp"
+        android:text="Add to Favorites" />
+
+</RelativeLayout>

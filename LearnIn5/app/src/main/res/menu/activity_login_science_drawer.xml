@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_mathematics"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Mathematics" />
+        <item
+            android:id="@+id/nav_engineering"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Computer Engineering" />
+        <item
+            android:id="@+id/nav_science"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Computer Science" />
+    </group>
+
+    <item android:title="Options">
+        <menu>
+            <item
+                android:id="@+id/nav_favorites"
+                android:icon="@android:drawable/btn_star_big_on"
+                android:title="Favorites" />
+            <item
+                android:id="@+id/nav_exit"
+                android:icon="@android:drawable/ic_lock_power_off"
+                android:title="Exit" />
+        </menu>
+    </item>
+
+</menu>

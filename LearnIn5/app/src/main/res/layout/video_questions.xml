@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="255dp">
+
+    <TextView
+        android:id="@+id/item_title"
+        android:layout_width="fill_parent"
+        android:layout_height="105dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="8dp"
+        android:lines="4"
+        android:maxLines="4"
+        android:text=""
+        android:textColor="@android:color/black"
+        android:textSize="18dp" />
+
+    <Button
+        android:id="@+id/item_buttonA"
+        android:layout_width="192dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/item_title"
+        android:layout_marginLeft="14dp"
+        android:text="Button"
+        android:textSize="18dp" />
+
+    <Button
+        android:id="@+id/item_buttonB"
+        android:layout_width="192dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/item_title"
+        android:layout_toRightOf="@+id/item_buttonA"
+        android:text="Button"
+        android:textSize="18dp" />
+
+    <Button
+        android:id="@+id/item_buttonC"
+        android:layout_width="192dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/item_buttonA"
+        android:layout_marginLeft="14dp"
+        android:layout_marginTop="5dp"
+        android:text="Button"
+        android:textSize="18dp" />
+
+    <Button
+        android:id="@+id/item_buttonD"
+        android:layout_width="192dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/item_buttonB"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@+id/item_buttonC"
+        android:text="Button"
+        android:textSize="18dp" />
+
+</RelativeLayout>

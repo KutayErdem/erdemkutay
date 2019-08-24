@@ -1,0 +1,116 @@
+<resources>
+    <string name="app_name">LearnIn5</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string-array name="main_video_id_array">
+        <item>SX1rtrsJ4R4</item>
+        <item>0NPYcQQWJ3Q</item>
+        <item>OIgpvFAew6k</item>
+        <item>viaha1SnpT4</item>
+    </string-array>
+
+    <string-array name="main_video_title_array">
+        <item>Search, Insert and Delete in a Sorted Array</item>
+        <item>Maximum Sum Increasing Subsequence</item>
+        <item>Power without using Multiplication and Division Operators</item>
+        <item>Array Rotation</item>
+    </string-array>
+
+    <string-array name="main_video_duration_array">
+        <item>4:56</item>
+        <item>4:58</item>
+        <item>5:03</item>
+        <item>4:48</item>
+    </string-array>
+
+    <string-array name="math_video_id_array">
+        <item>SX1rtrsJ4R4</item>
+        <item>0NPYcQQWJ3Q</item>
+        <item>OIgpvFAew6k</item>
+        <item>viaha1SnpT4</item>
+    </string-array>
+
+    <string-array name="math_video_title_array">
+        <item>Search, Insert and Delete in a Sorted Array</item>
+        <item>Maximum Sum Increasing Subsequence</item>
+        <item>Power without using Multiplication and Division Operators</item>
+        <item>Array Rotation</item>
+    </string-array>
+
+    <string-array name="math_video_duration_array">
+        <item>4:56</item>
+        <item>4:58</item>
+        <item>5:03</item>
+        <item>4:48</item>
+    </string-array>
+
+    <string-array name="engineering_video_id_array">
+        <item>SX1rtrsJ4R4</item>
+        <item>0NPYcQQWJ3Q</item>
+        <item>OIgpvFAew6k</item>
+        <item>viaha1SnpT4</item>
+    </string-array>
+
+    <string-array name="engineering_video_title_array">
+        <item>Search, Insert and Delete in a Sorted Array</item>
+        <item>Maximum Sum Increasing Subsequence</item>
+        <item>Power without using Multiplication and Division Operators</item>
+        <item>Array Rotation</item>
+    </string-array>
+
+    <string-array name="engineering_video_duration_array">
+        <item>4:56</item>
+        <item>4:58</item>
+        <item>5:03</item>
+        <item>4:48</item>
+    </string-array>
+
+    <string-array name="science_video_id_array">
+        <item>SX1rtrsJ4R4</item>
+        <item>0NPYcQQWJ3Q</item>
+        <item>OIgpvFAew6k</item>
+        <item>viaha1SnpT4</item>
+    </string-array>
+
+    <string-array name="science_video_title_array">
+        <item>Search, Insert and Delete in a Sorted Array</item>
+        <item>Maximum Sum Increasing Subsequence</item>
+        <item>Power without using Multiplication and Division Operators</item>
+        <item>Array Rotation</item>
+    </string-array>
+
+    <string-array name="science_video_duration_array">
+        <item>4:56</item>
+        <item>4:58</item>
+        <item>5:03</item>
+        <item>4:48</item>
+    </string-array>
+    <string name="title_activity_engineering">EngineeringActivity</string>
+    <string name="title_activity_login">Sign in</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="title_activity_login_main">LoginMainActivity</string>
+    <string name="title_activity_favorites">FavoritesActivity</string>
+
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_login_math">LoginMathActivity</string>
+    <string name="title_activity_login_engineering">LoginEngineeringActivity</string>
+    <string name="title_activity_science">ScienceActivity</string>
+    <string name="title_activity_login_science">LoginScienceActivity</string>
+</resources>
